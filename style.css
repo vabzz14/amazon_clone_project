@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+/** styling nav-bar **/
+.navbar{
+    height: 45px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/** amazon logo **/
+.nav-logo{
+    height: 60px;
+    width: 130px;
+}
+.logo{
+    background-image: url(amzon\ logo.jpg);
+    height: 40px;
+    width:;
+    background-size: cover;
+}
+/** border styling as per requirement **/
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/** address setting location box **/
+.nav-address{
+    height: 60px;
+    width: 170px;
+    align-items: center;
+}
+/** deliver to text **/
+.a{
+color: #ccc;
+font-size: medium;
+margin: 0.5rem
+}
+/** india and location logo **/
+.b{
+color: white;
+font-weight: 600;
+}
+/** search bar **/
+.nav-search{
+    color: white;
+    height: 30px;
+    width: 620px;
+    display: flex;
+    background-color: #F3AA60;
+    border-radius: 5px;
+}
+/** select bar all in search **/
+.search-select{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 45px;
+    font-size: 1rem;
+}
+/** users can search products by typing in this search bar **/
+.search-input{
+    width: 535px;
+}
+.search-icon{
+       width: 45px;
+       display: flex;
+       justify-content: space-evenly;
+       padding-top: 6px;
+       font-size: 1.2rem;
+       color: black;
+}
+/** accounts and lists **/
+.sign-in{
+    width: 150px;
+    
+}
+.acc{
+    font-size: 1rem;
+    font-weight: 750;
+    background-color: black;
+    color: white;
+    border: none;
+}
+/** orders and returns **/
+.orders{
+    font-weight: 750;
+    margin-left: 10px;
+}
+.cart-icon{
+    font-size: 30px;
+    width: 40px;
+    display: flex;
+}
+.cart{
+    font-size: 0.85rem;
+    margin-left: 5px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+/** styling panel **/
+.panel{
+    display: flex;
+    background-color:#213555;
+}
+/** all **/
+.panel-all{
+    color: white;
+    margin-left: 5px;
+    height: 20px;
+    font-weight: 700;
+    margin-right: 10px;
+
+}
+.p{
+    display: inline;
+    font-size: small;
+    align-content: center;
+    margin-right: 10px;
+}
+/** deal**/
+.deal{
+    color: white;
+    font-weight: 700;
+    margin-right: 10px;
+}
+/** customer service**/
+.service{
+    color: white;
+    font-weight: 700;
+    margin-right: 10px;
+}
+/** registry **/
+.register{
+    color: white;
+    font-weight: 700;
+    margin-right: 10px;
+}
+/** gift card**/
+.card{
+    color: white;
+    font-weight: 700;
+    margin-right: 10px;
+}
+/** sell **/
+.sell{
+    color: white;
+    font-weight: 700;
+    margin-right: 10px;
+    width: 800px;
+}
+.deals{
+    color: white;
+    font-weight: 700;
+    align-items: right;
+}
+.hero-section{
+    background-image: url(hero_image.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+   }
+.section{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width:95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+
+.box-container{
+    display: flex;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+.box{
+    height: 400px;
+    width: 21%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px 0px 15px;
+    background-color: white;
+}
+.box1{
+    font-weight: 750;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    justify-content: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.h2{
+    background-color: white;
+    display:block;
+    text-align: center;
+}
+.img1{
+   height: 300px;
+   background-image: url(box1_image.jpg);
+   margin-right: 20px;
+   background-size: cover;
+   margin-left: 20px;
+   padding: 20px 0px 15px;
+}
+.img{
+    height: 300px;
+    background-image: url(box2_image.jpg);
+    margin-right: 20px;
+    background-size: cover;
+    margin-left: 20px;
+    padding: 20px 0px 15px;
+ }
+ .img2{
+    height: 300px;
+    background-image: url(box3_image.jpg);
+    margin-right: 20px;
+    background-size: cover;
+    margin-left: 20px;
+    padding: 20px 0px 15px;
+ }
+ .img3{
+    height: 300px;
+    background-image: url(box4_image.jpg);
+    margin-right: 20px;
+    background-size: cover;
+    margin-left: 20px;
+    padding: 20px 0px 15px;
+ }
+ .img4{
+    height: 300px;
+    background-image: url(box5_image.jpg);
+    margin-right: 20px;
+    background-size: cover;
+    margin-left: 20px;
+    padding: 20px 0px 15px;
+ }
+ .img5{
+    height: 300px;
+    background-image: url(box6_image.jpg);
+    margin-right: 20px;
+    background-size: cover;
+    margin-left: 20px;
+    padding: 20px 0px 15px;
+ }
+ .img6{
+    height: 300px;
+    background-image: url(box7_image.jpg);
+    margin-right: 20px;
+    background-size: cover;
+    margin-left: 20px;
+    padding: 20px 0px 15px;
+ }
+ .img7{
+    height: 300px;
+    background-image: url(box8_image.jpg);
+    margin-right: 20px;
+    background-size: cover;
+    margin-left: 20px;
+    padding: 20px 0px 15px;
+ }
+.shop-now{
+    font-size: small;
+}
+
+
+
+
